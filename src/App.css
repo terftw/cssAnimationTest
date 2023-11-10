@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.circle-container {
+  position: relative;
+
+}
+
+.circle-img {
+  position: absolute;
+  width: 50px;
+  /* Adjust the size of your images */
+  height: 50px;
+  object-fit: cover;
+  /* Maintain aspect ratio */
+}
