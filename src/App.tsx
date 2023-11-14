@@ -6,9 +6,7 @@ import { CameraView } from './components/CameraView';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <CameraView />
-      </header>
+      <CameraView />
     </div>
   );
 }

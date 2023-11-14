@@ -5,8 +5,13 @@ body {
   align-items: center;
 }
 
+.img-test {
+  clip-path: polygon(20% 0%, 80% 0%, 95% 95%, 15% 100%);
+}
+
 .App {
-  text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App-logo {
@@ -16,14 +21,24 @@ body {
 
 .circle-container {
   position: relative;
-
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .circle-img {
   position: absolute;
-  width: 50px;
+  width: 80px;
   /* Adjust the size of your images */
-  height: 50px;
-  object-fit: cover;
+  height: 80px;
   /* Maintain aspect ratio */
+}
+
+.background-circle {
+  width: 700px;
+  height: 700px;
+  background-color: #080b0c; /* Choose your desired background color */
+  border-radius: 50%;
+  z-index: -1;
 }
